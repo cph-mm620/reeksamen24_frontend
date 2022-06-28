@@ -1,0 +1,10 @@
+.signup {
+  border: solid 2px black;
+  width: 50%;
+  margin: 10px auto;
+  padding: 50px 0;
+}
+
+.signup h2 {
+  margin: 0 0 20px 0;
+}

@@ -1,0 +1,29 @@
+.login {
+  border: solid 2px black;
+  width: 50%;
+  margin: auto;
+  padding: 50px 0;
+}
+.login h2 {
+  margin: 0 0 20px 0;
+}
+form {
+  margin: 0 auto;
+  width: 40%;
+}
+.form-control {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+.form-control label {
+  margin-right: 10px;
+}
+form .myButton {
+  background-color: greenyellow;
+}
+form input {
+  border: solid 2px black;
+  padding: 5px 10px;
+  border-radius: 15px;
+}

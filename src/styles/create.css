@@ -1,0 +1,11 @@
+.create form {
+  display: flex;
+  flex-direction: column;
+}
+.btn {
+  border: solid 2px black;
+  padding: 5px 10px;
+  border-radius: 15px;
+  margin: 20px auto;
+  width: 50%;
+}
