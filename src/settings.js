@@ -4,7 +4,9 @@ export const signupUrl =
 export const createUrl =
   "http://localhost:8080/Practise_war_exploded/api/myPath/create";
 export const readUrl =
-  "http://localhost:8080/Practise_war_exploded/api/myPath/read";
+  "http://localhost:8080/Practise_war_exploded/api/myPath/read/";
+  export const readDriverUrl =
+  "http://localhost:8080/Practise_war_exploded/api/myPath/readDriver/";// remember to add an id
 export const updateUrl =
   "http://localhost:8080/Practise_war_exploded/api/myPath/update/"; // remember to add an id
 export const deleteUrl =

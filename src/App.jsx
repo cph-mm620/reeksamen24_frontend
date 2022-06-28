@@ -147,7 +147,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>React notes</h1>
+        <h1>The Race System</h1>
         {loggedIn && <p>Welcome {userName}</p>}
       </header>
 
@@ -177,8 +177,8 @@ function App() {
                   padding: "5px",
                 }
               : {
-                  backgroundColor: "greenyellow",
-                  border: "solid 2px green",
+                  backgroundColor: "lightgrey",
+                  border: "solid 2px black",
                   margin: "10px 0",
                   padding: "5px",
                 }

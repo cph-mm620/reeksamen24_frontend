@@ -2,32 +2,30 @@ import React from "react";
 import { readUrl } from "../settings";
 import { useState, useEffect } from "react";
 import FetchReadJr from "./FetchReadJr";
-import LoadingIcons from "react-loading-icons";
+
 
 const FetchRead = () => {
-  const [manySideList, setManySideList] = useState([]);
+  const [raceList, setRaceList] = useState([]);
 
   useEffect(() => {
-    const getMany = async () => {
-      const fromAPI = await getManySides();
-      setManySideList(fromAPI);
+    const getRace = async () => {
+      const fromAPI = await getRaces();
+      setRaceList(fromAPI);
     };
-    getMany();
+    getRace();
   }, []);
 
-  const getManySides = async () => {
-    document.querySelector(".loading").style.display = "block";
+  const getRaces = async () => {
     const res = await fetch(readUrl);
     const data = await res.json();
-    document.querySelector(".loading").style.display = "none";
     return data;
   };
 
+
   return (
     <div>
-      <LoadingIcons.ThreeDots className="loading" />
-      {manySideList.length > 0 ? (
-        manySideList.map((element, index) => {
+      {raceList.length > 0 ? (
+        raceList.map((element, index) => {
           return <FetchReadJr key={index} props={element} />;
         })
       ) : (
