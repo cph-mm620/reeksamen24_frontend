@@ -1,7 +1,7 @@
 import React from "react";
 import { readDriverUrl } from "../settings";
 import { useState, useEffect } from "react";
-import { number } from "prop-types";
+
 
 const FetchReadJr = (props) => {
   const [driverList, setDriverList] = useState([]);

@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 ul {
@@ -10,8 +11,14 @@ ul {
   border: solid 2px black;
 
 }
+
 .table td, .table th{
   
   padding: 5px 15px;
   border: solid 2px black;
+}
+
+.form{
+  margin: 10px auto;
+
 }
