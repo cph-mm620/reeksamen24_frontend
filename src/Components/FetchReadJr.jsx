@@ -46,7 +46,8 @@ const FetchReadJr = (props) => {
       <ul><h3>
         {props.props.races.map((element, index) => {
           return <li key={index}>Race name: {element.name}</li>;
-        })}</h3>
+        })}
+        </h3>
       </ul> 
       <h3>Car: {props.props.brand} {props.props.name}</h3>
       <h3>{driverList.length !== 0 && driverList.map((element, index) => {

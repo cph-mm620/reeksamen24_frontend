@@ -11,7 +11,7 @@ function FetchCreate() {
 
 
   return(
-    <div className="wrapper">
+    <div className="myform">
       <h1>Create a race</h1>
       <form onSubmit={handleSubmit}>
       <fieldset>
