@@ -26,8 +26,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         </Route>
       </Route>
       <Route
-        // default for when the link is wrong
-        // like this http://localhost:3000/hjklhjklh
+
+
         path="*"
         element={
           <main style={{ padding: "1rem" }}>
